@@ -15,4 +15,4 @@ jobs:
       run: git --version
 
     - name: Run a one-line script
-      run: echo "Hello, World!"
+      run: echo "Hello, Fellows!"
