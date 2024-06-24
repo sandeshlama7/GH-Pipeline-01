@@ -10,5 +10,8 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    - name: Git Version
+      run: git --version
+
     - name: Run a one-line script
       run: echo "Hello, World!"
